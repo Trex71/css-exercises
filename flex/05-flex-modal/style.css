@@ -13,6 +13,43 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+}
+
+/* new */
+.left {
+  display: flex;
+  margin: 16px;
+}
+
+/* new */
+.right {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 16px 16px 0; 
+}
+
+/* new */
+.header-and-x {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* new */
+.header {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+/* new */
+.bottom-buttons {
+  display: flex;
+  gap: 4px;
+}
+
+/* new */
+.text {
+  margin: 8px 0 16px 0;
 }
 
 .modal {
@@ -20,6 +57,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  /* new */
+  display: flex;
 }
 
 .icon {
